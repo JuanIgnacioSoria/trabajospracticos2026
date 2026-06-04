@@ -1,9 +1,4 @@
-//Declarar variable
-//| | | | | | | | | | | | | | | |'Juan Fer Quintero' | | | | | | foto.jpg| | | | | | |
-//Asignar valor
-let numero1 = 10
-//Declarar y asignar al mismo tiempo
-let numero2 = 30
-numero1 = 5
-//Mostrar información
-console
+//Esto es una suma profe
+let numero1 = 2
+let numero2 = 4
+let suma = numero1 + numero2
