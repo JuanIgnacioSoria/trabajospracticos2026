@@ -30,8 +30,7 @@ console.log(
     apellidoAlumno +
     " tiene " +
     edadAlumno +
-    " años"
-);
+    " años");
 
 //Aca se suman los precios
 let precio1 = 30;
