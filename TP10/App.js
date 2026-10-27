@@ -1,4 +1,3 @@
-let utiles = ["Lápiz", "Goma", "Regla", "Cuaderno", "Lapicera"];
 //Ejercicio1
 
 let utiles = ["Lápiz", "Goma", "Regla", "Cuaderno", "Lapicera"];
