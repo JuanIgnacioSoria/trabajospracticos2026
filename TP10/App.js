@@ -46,14 +46,31 @@ console.log(productos.length)
 
 //ejercicio3
 
-let tecnologico = ["Teclado", "Mouse", "Monitor", "Auriculares", "Webcam", "Parlantes"];
+let Tecnologico = ["Teclado", "Mouse", "Monitor", "Auriculares", "Webcam", "Parlantes"];
+let Variable
+let Variado
+console.log(Tecnologico.indexOf("Mouse"))
+console.log(Tecnologico.indexOf("Monitor"))
+console.log(Tecnologico.indexOf("Webcam"))
+console.log(Tecnologico.indexOf("Impresora"))
+Variable = Tecnologico.indexOf('Teclado')
 
-console.log(tecnologico[tecnologico.indexOf("Mouse")])
-console.log(tecnologico[tecnologico.indexOf("Monitor")])
-console.log(tecnologico[tecnologico.indexOf("Webcam")])
+if (Variable >= 0) {
+    console.log('Teclado esta registrado')
+} else {
+    console.log('Teclado no esta registrado')
+}
 
+console.log(Tecnologico.indexOf("Impresora"))
+Variado = Tecnologico.indexOf('Impresora')
 
+if (Variado >= 0) {
+    console.log('Impresora esta registrado')
+} else {
+    console.log('Impresora no esta registrado')
+}
 
+Tecnologico.push("Impresora")
 
 
 
