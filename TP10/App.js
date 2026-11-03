@@ -91,7 +91,7 @@ console.log(videojuegos.indexOf("Pokémon Cristal"))
 console.log(videojuegos.indexOf("Sonic"))
 console.log(videojuegos.indexOf("FIFA"))
 videojuegos.pop();
-
+console.log('')
 
 
 
