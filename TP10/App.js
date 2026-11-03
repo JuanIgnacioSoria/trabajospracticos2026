@@ -44,11 +44,12 @@ console.log('Galletitas')
 console.log(productos)
 console.log(productos.length)
 
-//ejercicio3
+//Ejercicio3
 
 let Tecnologico = ["Teclado", "Mouse", "Monitor", "Auriculares", "Webcam", "Parlantes"];
 let Variable
 let Variado
+
 console.log(Tecnologico.indexOf("Mouse"))
 console.log(Tecnologico.indexOf("Monitor"))
 console.log(Tecnologico.indexOf("Webcam"))
@@ -64,32 +65,32 @@ if (Variable >= 0) {
 console.log(Tecnologico.indexOf("Impresora"))
 Variado = Tecnologico.indexOf('Impresora')
 
-if (Variado >= 0) {
+if (Variado >= -1) {
     console.log('Impresora esta registrado')
 } else {
     console.log('Impresora no esta registrado')
 }
 
 Tecnologico.push("Impresora")
+console.log(Tecnologico.indexOf("Impresora"))
+console.log(productos.length)
 
+//Ejercicio4
 
+let videojuegos = ["Minecraft", "Pokémon Cristal", "Super Mario", "The Legend of Zelda", "Sonic"];
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(videojuegos)
+console.log(videojuegos.length)
+videojuegos.push('Animal Crossing')
+videojuegos.push('Pokémon Rojo')
+console.log(videojuegos)
+videojuegos.unshift('Tetris')
+videojuegos.unshift('Pac Man')
+console.log(videojuegos)
+console.log(videojuegos.indexOf("Pokémon Cristal"))
+console.log(videojuegos.indexOf("Sonic"))
+console.log(videojuegos.indexOf("FIFA"))
+videojuegos.pop();
 
 
 
