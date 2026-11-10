@@ -91,18 +91,33 @@ console.log(videojuegos.indexOf("Pokémon Cristal"))
 console.log(videojuegos.indexOf("Sonic"))
 console.log(videojuegos.indexOf("FIFA"))
 videojuegos.pop();
-console.log('')
+console.log('Pokémon Rojo')
+videojuegos.shift('')
+console.log('Pac Man')
+console.log(videojuegos)
+console.log(videojuegos.length)
 
+//Ejercicio5
 
+let Estudiantes = ["Martina", "Lucas", "Sofía", "Tomás","Valentina" ];
 
-
-
-
-
-
-
-
-
+console.log(Estudiantes)
+console.log(Estudiantes.length)
+Estudiantes.push('Agustin')
+Estudiantes.push('Camila')
+console.log(Estudiantes)
+Estudiantes.unshift('Bruno')
+console.log(Estudiantes)
+console.log(Estudiantes.length)
+console.log(Estudiantes.indexOf("Sofía"))
+console.log(Estudiantes.indexOf("Camila"))
+console.log(Estudiantes.indexOf("Federico"))
+Estudiantes.shift('')
+console.log('Bruno')
+Estudiantes.pop('')
+console.log('Camila')
+console.log(Estudiantes)
+console.log(Estudiantes.length)
 
 
 
