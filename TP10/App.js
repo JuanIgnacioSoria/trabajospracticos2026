@@ -119,20 +119,91 @@ console.log('Camila')
 console.log(Estudiantes)
 console.log(Estudiantes.length)
 
+//Ejercicio6
 
+let Tareas = ["Estudiar", "Hacer la tarea", "Ordenar la habitación", "Comprar alimentos" ];
 
+console.log(Tareas)
+console.log(Tareas.length)
+Tareas.push("Pasear al perro")
+Tareas.push("Preparar la cena")
+console.log(Tareas)
+Tareas.unshift("Entregar un trabajo")
+console.log(Tareas)
+console.log(Tareas.indexOf("Estudiar"))
+console.log(Tareas.indexOf("Preparar la cena"))
+console.log(Tareas.indexOf("Lavar el auto"))
+Tareas.shift('')
+console.log('Entregar un trabajo')
+Tareas.pop('')
+console.log('Preparar la cena')
+Tareas.push("Leer un libro")
+Tareas.unshift("Hacer ejercicio")
+console.log(Tareas)
+console.log(Tareas.length)
 
+//Ejercicio7
 
+let Peliculas = ["Toy Story", "Shrek", "Buscando a Nemo", "Los Increíbles", "Ratatouille" ];
+let Variedad
 
+console.log(Peliculas)
+console.log(Peliculas.indexOf("Frozen"))
+Peliculas.push('Cars')
+Peliculas.push('Monsters Inc')
+console.log(Peliculas)
+Peliculas.unshift("Intensamente")
+Peliculas.unshift("Coco")
+console.log(Peliculas)
+console.log(Peliculas.indexOf("Shrek"))
+console.log(Peliculas.indexOf("Coco"))
+console.log(Peliculas.indexOf("Frozen"))
+Variedad = Peliculas.indexOf("Cars")
 
+if (Variedad >= 0) {
+    console.log("Cars esta en la lista")
+} else {
+    console.log("Cars no esta en la lista")
+}
 
+Peliculas.pop('')
+console.log('Monster Inc')
+Peliculas.shift('')
+console.log('Coco')
+Peliculas.push('Up')
+console.log(Peliculas.indexOf("Up"))
+console.log(Peliculas)
+console.log(Peliculas.length)
 
+//Ejercicio8
 
+let ProductosTienda = ["Celular", "Notebook", "Tablet", "Teclado", "Mouse" ];
 
-
-
-
-
-
-
-
+console.log(ProductosTienda)
+console.log(ProductosTienda.length)
+ProductosTienda.push('Monitor')
+ProductosTienda.push("Impresora")
+ProductosTienda.unshift("Cámara web")
+ProductosTienda.unshift("Micrófono")
+console.log(ProductosTienda)
+console.log(ProductosTienda.length)
+console.log(ProductosTienda.indexOf("Notebook"))
+console.log(ProductosTienda.indexOf("Micrófono"))
+console.log(ProductosTienda.indexOf("Parlantes"))
+ProductosTienda.pop('')
+console.log('Impresora')
+ProductosTienda.shift('')
+console.log('Micrófono')
+console.log(ProductosTienda)
+ProductosTienda.push("Parlantes")
+ProductosTienda.unshift("Auriculares")
+console.log(ProductosTienda)
+console.log(ProductosTienda.indexOf("Parlantes"))
+console.log(ProductosTienda.indexOf("Auriculares"))
+console.log(ProductosTienda.indexOf("Celular"))
+ProductosTienda.pop('')
+console.log('Parlantes')
+ProductosTienda.shift('')
+console.log('Auriculares')
+console.log(ProductosTienda)
+console.log(ProductosTienda.length)
