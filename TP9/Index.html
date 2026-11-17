@@ -2,18 +2,46 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="Style.css">
 </head>
 <body>
-<h1>Ejercicio 1</h1>   
-<input type="number" id="number1">
-<input type="number" id="number2">
-<button id="boton1">Comparacion</button>
-<p id="Final">Resultado</p>
+
+    <h1>Ejercicios de funciones</h1>
+
+    <h2>1. Número mayor</h2>
+    <input type="number" id="numero1" placeholder="Número 1">
+    <input type="number" id="numero2" placeholder="Número 2">
+    <button onclick="ejecutarMayor()">Verificar mayor</button>
+    <p id="resultado1"></p>
+
+    <h2>2. Número menor</h2>
+    <input type="number" id="numero3" placeholder="Número 1">
+    <input type="number" id="numero4" placeholder="Número 2">
+    <button onclick="ejecutarMenor()">Verificar menor</button>
+    <p id="resultado2"></p>
+
+    <h2>3. Números iguales o diferentes</h2>
+    <input type="number" id="numero5" placeholder="Número 1">
+    <input type="number" id="numero6" placeholder="Número 2">
+    <button onclick="ejecutarIguales()">Verificar</button>
+    <p id="resultado3"></p>
+
+    <h2>4. Calcular IVA</h2>
+    <input type="number" id="compra" placeholder="Valor de la compra">
+    <button onclick="ejecutarIVA()">Calcular IVA</button>
+    <p id="resultado4"></p>
+
+    <h2>5. Saludar a una persona</h2>
+    <input type="text" id="nombre" placeholder="Escribí tu nombre">
+    <button onclick="ejecutarSaludo()">Saludar</button>
+    <p id="resultado5"></p>
+
+    <h2>6. Modo oscuro</h2>
+    <button onclick="modoOscuro()">Activar modo oscuro</button>
+
+    <h2>7. Modo claro</h2>
+    <button onclick="modoClaro()">Activar modo claro</button>
+
+    <script src="App.js"></script>
 
 </body>
-<script src="App.js"></script>
 </html>
